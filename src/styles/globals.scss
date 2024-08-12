@@ -1,0 +1,10 @@
+//Themes
+$theme-primary: rgb(138, 193, 196);
+$theme-secondary: rgba(168, 212, 225, 0.903);
+$theme-tertiary: rgb(229, 235, 229);
+$theme-green-1: rgb(158, 201, 158);
+
+:export {
+    themePrimary: $theme-primary;
+    themeSecondary: $theme-secondary;
+} 

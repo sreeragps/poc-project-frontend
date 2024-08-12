@@ -1,0 +1,16 @@
+@import '../styles/globals';
+
+.footer {
+    display: flex;
+    height: 80px;
+    width:100%;
+    background-color: $theme-green-1;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    &__content {
+       text-align: center;
+       font-size: 14px;
+    }
+}

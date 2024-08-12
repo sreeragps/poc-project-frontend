@@ -1,0 +1,90 @@
+@import '../styles/colors.scss';
+
+.addUser {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+        padding-left: 5px;
+    }
+    &__fieldset {
+        width: 400px;
+        height: auto;
+        &__form {
+            height: auto;
+            width: 100%;
+            &__field {
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+
+                &__ErrorMessage {
+                    color: $color-standard-red;
+                    margin: 2px;
+                    height:15px;
+                }
+            }
+            &__field:nth-of-type(4) {
+                display: flex;
+                flex-direction: row;
+                margin: 10px 15px 10px 5px;
+            }
+            &__generalErrorMessage {
+                margin-left: 5px;
+                color: $color-standard-red;
+                align-content: center;
+                height: 15px;
+            }
+            &__actions {
+                margin: 5px 5px 5px 0px;
+                & button{
+                    height: 40px;
+                    width: 80px;
+                    margin: 5px;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    color: $color-standard-white;
+                    cursor: pointer;
+                }
+                &__resetAction {
+                    background-color: $color-standard-red;
+                }
+                &__submitAction {
+                    background-color: $color-standard-green;
+                }
+            }
+        }
+        &__close {
+            display: flex;
+            justify-content: flex-end;
+            &__image {
+                color: $color-standard-red;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 2px solid $color-primary;
+            border-radius: 3px;
+            font-size: 14px;
+
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            display: inline;
+            width: 10%;
+        }
+        label{
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+$color-primary: #bbc8c3;
+$color-primary-text: #ffffff;
+$color-standard-black: #000000;
+$color-standard-white: #ffffff;
+$color-standard-red: #ff0000;
+$color-standard-green: #008000;
+$color-violet: #6e286e;
+$color-grey: #808080;
+
+:export {
+    primary: $color-primary;
+    primaryText: $color-primary-text;
+    colorBlack: $color-standard-black;
+    colorWhite: $color-standard-white;
+    colorRed: $color-standard-red;
+    colorGreen: $color-standard-green;
+}  
