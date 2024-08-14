@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import React,{ useState } from 'react';
 import './addUser.scss';
 import axios from 'axios';
 import { isEmpty } from 'lodash';
